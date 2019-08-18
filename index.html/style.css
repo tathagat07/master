@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+}
+
+li {
+    display: inline;
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 4em;
+    width: 60%;
+    text-align: left;
+    color: darkmagenta;
+    float: center;
+}
+
+h2 {
+    font-size: 1.4em;
+    text-align: center;
+    background-color: darkmagenta;
+    color: aliceblue;
+}
+
+.social {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    margin: auto;
+}
+
+li a {
+    display: block;
+    color: rgb(183, 50, 196);
+    text-align: center;
+    text-decoration: none;
+}
+
+:-moz-ui-invalid {
+    width: 600px;
+}
+
+ul a {
+    list-style-type: none;
+    float: left;
+    margin: 20px;
+    padding: 1px;
+}
+
+ul a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.footer {
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    height: 1.5rem;
+    text-align: center;
+}
+
+p a {
+    text-decoration: none;
+    margin: 0;
+}
